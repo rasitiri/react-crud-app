@@ -1,0 +1,22 @@
+.buttonStyleInfo {
+    background-color: #039be5;
+    padding: 8px 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.buttonStyleDanger {
+    background-color: #cc3b47;
+    padding: 8px 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.buttonStyleInfo,
+.buttonStyleDanger:hover {
+    cursor: pointer
+}

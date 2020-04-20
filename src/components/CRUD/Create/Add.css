@@ -1,0 +1,20 @@
+.addProduct {
+    padding: auto;
+    text-align: center;
+}
+
+.addProduct Button {
+    width: 47%;
+}
+
+.addProduct .box {
+    margin: 13px auto;
+}
+
+.addProduct .box label {
+    display: block;
+}
+
+.addProduct .box Input {
+    width: 45%;
+}

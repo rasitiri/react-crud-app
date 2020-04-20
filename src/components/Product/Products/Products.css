@@ -1,0 +1,34 @@
+.tableStyle {
+    margin-top: 15px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tableStyle tr {
+    padding: .35em;
+}
+
+.tableStyle thead tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.tableStyle th {
+    padding: 0.625em;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.tableStyle td {
+    padding: 0.625em;
+    text-align: center;
+    font-size: .9em;
+}
+
+.tableStyle th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
