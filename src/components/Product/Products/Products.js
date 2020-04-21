@@ -80,9 +80,9 @@ class Products extends React.Component {
                                     description={product.description}
                                     price={product.price}>
                                     <NavLink to={'edit/3'}>
-                                        <Button text="Edit" />
+                                        <Button btntype="success" text="Edit" />
                                     </NavLink>
-                                    <Button onClick={() => this.deleteProduct(product.id)} text="Delete" type="danger" />
+                                    <Button onClick={() => this.deleteProduct(product.id)} text="Delete" btntype="danger" />
                                 </Product>
                             )
                         })

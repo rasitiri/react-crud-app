@@ -10,7 +10,7 @@ class CrudApp extends React.Component {
         return (
             <div>
                 <NavLink to="/add">
-                    <Button text="Add Product" />
+                    <Button text="Add Product" btntype="info"/>
                 </NavLink>
                 <p>Product Name</p>
                 <Products />
