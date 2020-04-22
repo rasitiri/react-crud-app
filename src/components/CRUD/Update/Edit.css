@@ -1,0 +1,20 @@
+.editProduct {
+    padding: auto;
+    text-align: center;
+}
+
+.editProduct Button {
+    width: 47%;
+}
+
+.editProduct .box {
+    margin: 13px auto;
+}
+
+.editProduct .box label {
+    display: block;
+}
+
+.editProduct .box Input {
+    width: 45%;
+}

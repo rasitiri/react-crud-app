@@ -12,7 +12,6 @@ class CrudApp extends React.Component {
                 <NavLink to="/add">
                     <Button text="Add Product" btntype="info"/>
                 </NavLink>
-                <p>Product Name</p>
                 <Products />
             </div>
         )

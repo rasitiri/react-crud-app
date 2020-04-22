@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "k9blb4fv",
+      "name": "The Quantified Cactus: An Easy Plant Soil Moisture Sensor",
+      "description": "This project is a good learning project to get comfortable with soldering and programming an Arduino.",
+      "price": "11.99"
+    },
+    {
+      "id": "k9blcc77",
+      "name": "A beautiful switch-on book light",
+      "description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
+      "price": "29.99"
+    },
+    {
+      "id": "k9bld1yj",
+      "name": "Heart-shaped LED",
+      "description": "custom molded heart shaped LED with sprinkles.",
+      "price": "9.99"
+    },
+    {
+      "id": "k9blenhr",
+      "name": "Floppy Crop",
+      "description": "Used up the Diskette fabric today to make 2 of these crops.",
+      "price": "0.99"
+    }
+  ]
+}

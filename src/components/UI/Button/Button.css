@@ -27,6 +27,17 @@
     font-size: 15px;
 }
 
+.buttonStyleDanger:disabled{
+ background-color: gray;
+ padding: 8px 15px;
+ color: white;
+ border: 1px solid white;
+ border-radius: 3px;
+ font-size: 15px;
+ opacity: 0.65;
+ cursor: not-allowed;
+}
+
 .buttonStyleSuccess {
     background-color: #5cb85c;
     padding: 8px 15px;
@@ -34,8 +45,19 @@
     border: 1px solid white;
     border-radius: 3px;
     font-size: 15px;
+    cursor: pointer;
 }
 
+.buttonStyleSuccess:disabled{
+ background-color: gray;
+ padding: 8px 15px;
+ color: white;
+ border: 1px solid white;
+ border-radius: 3px;
+ font-size: 15px;
+ opacity: 0.65;
+ cursor: not-allowed;
+}
 
 .buttonStyleInfo,
 .buttonStyleDanger:hover {
