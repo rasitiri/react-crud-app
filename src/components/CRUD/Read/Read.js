@@ -10,7 +10,7 @@ class Read extends React.Component {
         price: '',
     }
     componentDidMount = async () => {
-        const res = await axios.get(`http://localhost:2020/products/${this.props.match.params.id}`)
+        const res = await axios.get(`https://react-app-json-server.herokuapp.com/products/${this.props.match.params.id}`)
         const { name, description, price } = res.data;
         this.setState({
             name,

@@ -80,7 +80,7 @@ class Add extends React.Component {
             description,
             price
         }
-        const res = await axios.post('http://localhost:2020/products', data)
+        const res = await axios.post('https://react-app-json-server.herokuapp.com/products', data)
         dispatch({
             type: "ADD_PRODUCT",
             payload: res.data

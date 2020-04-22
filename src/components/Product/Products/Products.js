@@ -11,7 +11,7 @@ import './Products.css';
 
 class Products extends React.Component {
     deleteProduct = async (dispatch, id) => {
-        axios.delete(`http://localhost:2020/products/${id}`)
+        axios.delete(`https://react-app-json-server.herokuapp.com/products/${id}`)
 
         dispatch({
             type: 'DELETE_PRODUCT',

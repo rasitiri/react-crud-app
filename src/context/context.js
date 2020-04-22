@@ -14,14 +14,6 @@ const reducer = (state, action) => {
                     action.payload !== product.id
                 )
             }
-        // case "SEARCH_PRODUCT":
-        //     return {
-        //         ...state,
-        //         exampleProducts: DATA.filter(product =>
-        //             // product.name.toLocaleLowerCase().indexOf(action.payload) !== -1
-        //             console.log("search product",product)
-        //         )
-        //     }
         case "ADD_PRODUCT":
             return {
                 ...state,
@@ -46,7 +38,8 @@ export class AppProvider extends React.Component {
     }
 
     componentDidMount = async () => {
-        const response = await axios.get('http://localhost:2020/products')
+        const response = await axios('https://react-app-json-server.herokuapp.com/products')
+        console.log(response.data);
         this.setState({
             exampleProducts: response.data
         })

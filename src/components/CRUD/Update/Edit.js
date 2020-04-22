@@ -24,7 +24,7 @@ class Edit extends React.Component {
 
     componentDidMount = async () => {
         const productID = this.props.match.params.id;
-        await axios.get('http://localhost:2020/products')
+        await axios.get('https://react-app-json-server.herokuapp.com/products')
             // eslint-disable-next-line array-callback-return
             .then(data => data.data.filter((p) => {
                 // eslint-disable-next-line eqeqeq
@@ -95,7 +95,7 @@ class Edit extends React.Component {
             description,
             price
         }
-        const res = await axios.put(`http://localhost:2020/products/${productID}`, updatedData);
+        const res = await axios.put(`https://react-app-json-server.herokuapp.com/products/${productID}`, updatedData);
         dispatch({
             type: 'UPDATE_PRODUCT',
             payload: res.data
