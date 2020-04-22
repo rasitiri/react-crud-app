@@ -1,0 +1,38 @@
+.table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table tr {
+    padding: .35em;
+}
+
+.table thead tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    padding: 0.625em;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.table td {
+    padding: 0.825em;
+    text-align: center;
+    font-size: .9em;
+}
+.table tbody tr {
+    transition: font-size 0.3s linear;
+}
+.table tbody tr:hover {
+    background-color: #ddd;
+    font-size: 1.2em;
+    transition: font-size 0.3s linear;
+}

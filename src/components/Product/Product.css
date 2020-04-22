@@ -1,0 +1,11 @@
+.linkStyle{
+    text-decoration: none;
+    color: black;
+    transition: font-size 0.3s, color 0.8s;
+}
+
+.linkStyle:hover{
+    color: rgb(48, 240, 192);
+    font-size: 20px;
+    transition: font-size 0.3s, color 0.8s;
+}
