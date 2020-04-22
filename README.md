@@ -17,6 +17,6 @@ npm start
 
 You need json-server to use the app. For more information [json-server](https://github.com/typicode/json-server)
 
-If you install the json-server, then run the command.
+Run the command after installing the json server.
 ```bash
 json-server src/api/db.json --port 2020
