@@ -1,5 +1,7 @@
 # React CRUD App
 
+[Live Demo](https://react-crud-app-1.herokuapp.com)
+
 This application is a simple application that was created with ReactJS. 
 
 ## Installation
@@ -15,8 +17,3 @@ Use the command to start the app.
 npm start
 ```
 
-You need json-server to use the app. For more information [json-server](https://github.com/typicode/json-server)
-
-Run the command after installing the json server.
-```bash
-json-server src/api/db.json --port 2020
